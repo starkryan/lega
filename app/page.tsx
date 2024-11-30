@@ -1,10 +1,11 @@
 "use client";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useEffect } from "react";
 import Head from "next/head";
 
 const HomePage = () => {
   // WhatsApp phone number and message
-  const phoneNumber = "919876543210"; // Replace with your number (country code + number)
+  const phoneNumber = "447552169697"; // Replace with your number (country code + number)
   const message = "Hello! I'm interested in learning more about your services."; // Customizable message
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
 
@@ -36,6 +37,9 @@ const HomePage = () => {
         />
         <meta property="og:type" content="website" />
       </Head>
+
+      {/* Speed Insights */}
+      <SpeedInsights />
 
       {/* Fallback Content */}
       <main style={{ textAlign: "center", padding: "20px" }}>
