@@ -33,7 +33,7 @@ const HomePage = () => {
         <meta property="og:url" content={whatsappUrl} />
         <meta
           property="og:image"
-          content="https://yourdomain.com/preview.png" // Replace with your image URL
+          content="https://aadharseva.vercel.app/preview.png" // Replace with your image URL
         />
         <meta property="og:type" content="website" />
       </Head>
