@@ -1,5 +1,6 @@
 import React from "react";
 import { FaWhatsapp, FaPhoneAlt } from "react-icons/fa"; // Import WhatsApp and Phone icons from react-icons
+import { FaHandPointUp } from "react-icons/fa";
 
 const LandingPage = () => {
   return (
@@ -23,6 +24,18 @@ const LandingPage = () => {
         <FaPhoneAlt className="mr-2" />
         Call Us
       </a>
+      <p className="text-lg">
+        <span className="mr-2 text-blue-500 flex justify-center">
+          <FaHandPointUp />
+        </span>
+        For Aadhaar ID, contact us on WhatsApp
+      </p>
+      <p className="text-lg mt-2">
+        <span className="mr-2 text-green-500 flex justify-center">
+          <FaHandPointUp />
+        </span>
+        आधार आईडी पाने के लिए व्हाट्सएप पर संपर्क करें
+      </p>
      
     </div>
   );
