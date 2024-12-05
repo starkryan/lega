@@ -5,8 +5,9 @@ import { FaHandPointUp } from "react-icons/fa";
 const LandingPage = () => {
   return (
     <div className="flex flex-col items-center mt-20 space-y-4">
-       <a
-        href="https://wa.me/16832251798"
+      <a
+        href="https://wa.me/16832251798?text=I%20want%20Aadhar%20ID
+"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center px-4 py-2 border border-green-500 text-green-500 hover:bg-green-500 hover:text-white rounded-lg transition duration-300"
@@ -15,8 +16,8 @@ const LandingPage = () => {
         WhatsApp Us
       </a>
       <a
-        
-        href="https://wa.me/16832251798"
+        href="https://wa.me/16832251798?text=I%20want%20Aadhar%20ID
+"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center px-4 py-2 border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white rounded-lg transition duration-300"
@@ -36,7 +37,6 @@ const LandingPage = () => {
         </span>
         आधार आईडी पाने के लिए व्हाट्सएप पर संपर्क करें
       </p>
-     
     </div>
   );
 };
